@@ -1,0 +1,18 @@
+#Deny From All
+#Allow From localhost
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) admin.php?$1 [QSA,L,B]
+
+DirectoryIndex index.php
+
+SetEnv DEBUG_HOST 1
+SetEnv CORE_DIR ./
+SetEnv APP_DIR ./
+
+#php_value post_max_size 216M
+#php_value memory_limit 228M
+#php_value upload_max_filesize 200M
