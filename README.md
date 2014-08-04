@@ -5,8 +5,8 @@ NOTE: UNTIL FURTHER NOTICE, THIS REPO IS *NOT* USABLE AS-IS.
 YOU WOULD HAVE TO EDIT SOME FILES TO MAKE IT WORK. THIS IS
 A WORK IN PROGRESS AND IS A SUBJECT TO CHANGE.
 
-Usage
------
+Install
+-------
 
 ```
 git clone https://github.com/makesite/site-simple.git
@@ -46,3 +46,13 @@ and adjust the APP_DIR and CORE_DIR constants in `config.php`.
 
 Such a layout would be a subject for a different repository in the
 future.
+
+Usage
+-----
+
+Copy (and rename?) 'simplesite' or it's contents to the designated
+directory. Take a look at `config.php`, `config.dev.php` and `db.conf.php`
+files.
+
+Try accessing the `/` and `admin/` urls for the "front-end" and "admin 
+panel" sections of the site.
