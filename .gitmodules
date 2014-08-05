@@ -10,3 +10,6 @@
 [submodule "submodules/varcore"]
 	path = submodules/varcore
 	url = https://github.com/makesite/varcore
+[submodule "submodules/jtype"]
+	path = submodules/jtype
+	url = https://github.com/driedfruit/jtype
