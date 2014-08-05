@@ -7,7 +7,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*) admin.php?$1 [QSA,L,B]
 
-DirectoryIndex index.php
+DirectoryIndex admin.php
 
 SetEnv DEBUG_HOST 1
 SetEnv CORE_DIR ./

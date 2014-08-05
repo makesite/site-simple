@@ -79,21 +79,8 @@ function view_dbmodels() {
 		);
 	}
 
-	$l->vars['site']['show_links'] = true;
-	$l->assign('links', $links);
-
-	$l->assign('site.form', array(
-		'link_header' => "Models",
-		'link_ids' => array('/links/title'),
-		'link_fields' => array(
-			'title' => array(
-				'type' => 'text',
-				'placeholder' => 'Рассылка',
-				'required' => false,
-				'value' => '/links/title',
-			),
-		),
-	));
+	$l->vars['site']['show_dbmodels'] = true;
+	$l->assign('dbmodels', $links);
 
 	$l->out();
 	return true;

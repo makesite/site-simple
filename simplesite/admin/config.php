@@ -3,7 +3,7 @@
 $master_login    = 'admin';
 $master_password = 'FILLME';
 
-$user_workdir = 'files';
+$user_workdir = '../files';
 
 $languages = array(
 	'Russian' => '',
@@ -15,7 +15,7 @@ $default_language = 'ru';
 
 $language_method = 'url'; // url | host
 
-$app_name = "KeyGroup";
+$app_name = "SimpleSite";
 $user_backupdir = 'backups';
 
 $deep_pages = false;
